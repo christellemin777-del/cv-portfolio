@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christi — Portfolio CV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. EN-TÊTE & NAVIGATION -->
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-mark">&lt;C/&gt;</span>
+      <span class="logo-text">Christi<span class="dot">.</span>dev</span>
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#a-propos">~/a-propos</a></li>
+        <li><a href="#competences">~/competences</a></li>
+        <li><a href="#projets">~/projets</a></li>
+        <li><a href="#contact">~/contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. À PROPOS -->
+    <section id="a-propos" class="about">
+      <div class="about-photo">
+        <img src="assets/photo-profil.jpg" alt="Photo de profil de Christi, développeuse front-end en formation">
+      </div>
+      <div class="about-content">
+        <p class="eyebrow">// à propos</p>
+        <h1>Bonjour, je suis <span class="accent">Christi</span></h1>
+        <p class="role">Développeuse Front-End en formation — UNG</p>
+        <p class="bio">
+          Passionnée par la création d'interfaces claires et accessibles, je me forme actuellement
+          au développement front-end à l'Université Numérique du Gabon. J'aime transformer une idée
+          en une page web propre, sémantique et responsive, du HTML structuré jusqu'à la mise en page
+          Flexbox. En dehors du code, je pilote aussi la vie pédagogique d'un établissement scolaire —
+          une expérience qui nourrit mon sens de l'organisation et du détail.
+        </p>
+        <a class="btn-download" href="assets/cv-christi.pdf" download>Télécharger mon CV</a>
+      </div>
+    </section>
+
+    <!-- 3. COMPÉTENCES -->
+    <section id="competences" class="skills">
+      <p class="eyebrow">// stack</p>
+      <h2>Compétences</h2>
+      <ul class="skills-grid">
+        <li class="skill-badge"><span class="badge-lang">HTML5</span><span class="badge-level">Sémantique &amp; accessibilité</span></li>
+        <li class="skill-badge"><span class="badge-lang">CSS3</span><span class="badge-level">Flexbox &amp; responsive</span></li>
+        <li class="skill-badge"><span class="badge-lang">Git / GitHub</span><span class="badge-level">Versionning &amp; déploiement</span></li>
+        <li class="skill-badge"><span class="badge-lang">JavaScript</span><span class="badge-level">Notions de base</span></li>
+        <li class="skill-badge"><span class="badge-lang">UX / UI</span><span class="badge-level">Mise en page &amp; hiérarchie</span></li>
+        <li class="skill-badge"><span class="badge-lang">Pédagogie</span><span class="badge-level">Communication &amp; rigueur</span></li>
+      </ul>
+    </section>
+
+    <!-- 4. PROJETS -->
+    <section id="projets" class="projects">
+      <p class="eyebrow">// réalisations</p>
+      <h2>Projets</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <img src="assets/projet-1.jpg" alt="Capture d'écran du site vitrine responsive en Flexbox">
+          <div class="project-body">
+            <h3>Site vitrine Flexbox</h3>
+            <p>Site trois pages entièrement responsive, mise en page réalisée sans framework externe.</p>
+            <a href="#" target="_blank" rel="noopener">Voir le code →</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/projet-2.jpg" alt="Capture d'écran de la page CV sémantique HTML5">
+          <div class="project-body">
+            <h3>CV Portfolio</h3>
+            <p>Cette page-même : structure HTML5 sémantique et alignement 100% Flexbox.</p>
+            <a href="#" target="_blank" rel="noopener">Voir le code →</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <img src="assets/projet-3.jpg" alt="Capture d'écran d'un projet de modélisation de base de données">
+          <div class="project-body">
+            <h3>Modèle de données</h3>
+            <p>Diagramme entité-association réalisé dans le cadre du module base de données.</p>
+            <a href="#" target="_blank" rel="noopener">Voir le code →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- 5. FOOTER -->
+  <footer id="contact" class="site-footer">
+    <div class="footer-links">
+      <a href="https://github.com/ton-pseudo" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/ton-profil" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:christi@example.com">Email</a>
+    </div>
+    <p class="copyright">© 2026 Christi — Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
